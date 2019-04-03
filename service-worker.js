@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pages/UXD-Hackathon/2019-ani-two/precache-manifest.3ce9f5f1cacd06cda860e5929b300697.js"
+  "/flint/precache-manifest.a9df5879236842e4fb537dde65f6ed48.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pages/UXD-Hackathon/2019-ani-two/index.html", {
+workbox.routing.registerNavigationRoute("/flint/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
